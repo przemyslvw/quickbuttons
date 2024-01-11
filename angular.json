@@ -96,6 +96,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "quickbuttons:build:production",
+              "serveTarget": "quickbuttons:serve:production"
+            },
+            "development": {
+              "buildTarget": "quickbuttons:build:development",
+              "serveTarget": "quickbuttons:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

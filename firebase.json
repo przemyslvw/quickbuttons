@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "quickbuttons",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

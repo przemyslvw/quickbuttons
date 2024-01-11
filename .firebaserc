@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "quickbuttons-13d61": {
+      "hosting": {
+        "quickbuttons": [
+          "quickbuttons-13d61"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "quickbuttons-13d61"
+  }
+}
