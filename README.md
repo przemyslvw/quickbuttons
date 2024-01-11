@@ -4,6 +4,8 @@ ng new
 cd quickbuttons
 npm audit fix --force
 npm install bootstrap --save-dev
+ng add @angular/material
+npm install @angular-devkit/build-angular@latest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
