@@ -8,6 +8,8 @@
 
 # Node
 /node_modules
+/environments/environments.prod.ts
+/environments/environments.ts
 npm-debug.log
 yarn-error.log
 
