@@ -8,10 +8,16 @@
 
 # Node
 /node_modules
-/environments/environments.prod.ts
-/environments/environments.ts
 npm-debug.log
 yarn-error.log
+
+# environment variables
+
+/src/environments
+/src/environments/environments.prod.ts
+/environments/environments.prod.ts
+/src/environments/environments.ts
+/environments/environments.ts
 
 # IDEs and editors
 .idea/
