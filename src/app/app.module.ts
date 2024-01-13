@@ -7,6 +7,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 
 
 import { AppComponent } from './app.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(enviroments.firebase),
-
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
