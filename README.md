@@ -8,6 +8,8 @@ ng add @angular/material
 npm install @angular-devkit/build-angular@latest
 ng add @angular/fire
 
+npm install @angular-devkit/build-angular@latest --save-dev
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
 ## Development server
